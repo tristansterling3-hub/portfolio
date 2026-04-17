@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tristan Sterling | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="logo">&lt;Dev/&gt;</a>
+
+        <nav class="nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-inner reveal">
+          <span class="hero-pill">👋 Welcome to my portfolio</span>
+
+          <h1 class="hero-title">Tristan Sterling</h1>
+
+          <h2 class="hero-subtitle">Software Engineer &amp; Game Developer</h2>
+
+          <p class="hero-text">
+            Building immersive game systems, interactive software, and polished
+            projects that blend technical problem-solving with thoughtful user
+            experience.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View My Work <span>→</span></a>
+            <a class="btn btn-secondary" href="#contact">Get In Touch</a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/your-handle" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:you@example.com">Email</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-split">
+        <div class="container split-grid">
+          <div class="about-copy reveal">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="section-line"></div>
+
+            <p>
+              I'm a software developer with experience across game development,
+              web applications, data-driven dashboards, and interactive learning
+              projects. I enjoy building systems that are both technically solid
+              and engaging to use.
+            </p>
+
+            <p>
+              My work spans Unity gameplay systems, Java and Python development,
+              PHP/MySQL web apps, and interactive tools that combine clean design
+              with practical functionality.
+            </p>
+
+            <div class="code-chip">
+              <span>const</span> focus = <em>"Games, software, and interactive experiences"</em>;
+            </div>
+          </div>
+
+          <div id="statGrid" class="stats-grid"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 class="section-title">Featured <span>Projects</span></h2>
+            <div class="section-line"></div>
+            <p>
+              A selection of software, game, and interactive projects that show my
+              range across engineering, design, and problem solving.
+            </p>
+          </div>
+
+          <div id="projectsGrid" class="projects-grid"></div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 class="section-title">Skills &amp; <span>Technologies</span></h2>
+            <div class="section-line"></div>
+            <p>
+              My technical toolkit for building software, gameplay systems, data
+              projects, and responsive web experiences.
+            </p>
+          </div>
+
+          <div id="skillsGrid" class="skills-grid"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="section-line"></div>
+            <p>
+              Have a project in mind, want to collaborate, or looking for a
+              developer who can build across multiple stacks? Reach out.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-cards reveal">
+              <article class="contact-card">
+                <h3>Email Me</h3>
+                <p><a href="mailto:you@example.com">you@example.com</a></p>
+              </article>
+
+              <article class="contact-card">
+                <h3>Location</h3>
+                <p>Available for remote opportunities</p>
+              </article>
+
+              <article class="contact-card">
+                <h3>Let's Connect</h3>
+                <p>
+                  Open to internships, collaborations, and software or game
+                  development opportunities.
+                </p>
+                <div class="contact-links">
+                  <a class="tag" href="https://github.com/your-handle" target="_blank" rel="noreferrer">GitHub</a>
+                  <a class="tag" href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noreferrer">LinkedIn</a>
+                </div>
+              </article>
+            </div>
+
+            <form class="contact-form reveal">
+              <label>
+                Name *
+                <input type="text" placeholder="Your name" />
+              </label>
+
+              <label>
+                Email *
+                <input type="email" placeholder="your.email@example.com" />
+              </label>
+
+              <label>
+                Subject *
+                <input type="text" placeholder="What's this about?" />
+              </label>
+
+              <label>
+                Message *
+                <textarea rows="6" placeholder="Tell me about your project or idea..."></textarea>
+              </label>
+
+              <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Tristan Sterling</p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+
+    <div id="projectPanel" class="project-panel">
+      <div class="project-panel-card">
+        <button id="closePanel" class="panel-close" type="button">×</button>
+        <div id="projectPanelBody"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
