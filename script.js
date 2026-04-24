@@ -9,8 +9,8 @@ const projects = [
       "A realtime chat platform built with Node.js, Socket.IO, and SQLite featuring rooms, direct messages, moderation controls, reactions, pinned messages, search, and file uploads.",
     tech: ["Node.js", "Socket.IO", "SQLite", "JavaScript", "Testing"],
     links: {
-      demo: "https://github.com/tristansterling3-hub/Simple-Chat-.git",
-      code: "https://github.com/tristansterling3-hub/Simple-Chat-.git",
+      demo: "https://github.com/tristansterling3-hub/Simple-Chat-",
+      code: "https://github.com/tristansterling3-hub/Simple-Chat-",
     },
     details: [
       "Implemented realtime room chat and direct messages with online presence and typing indicators.",
@@ -280,8 +280,9 @@ function renderSkills() {
 
 function linksMarkup(links = {}) {
   const items = [];
+  const hasRealLink = (url) => Boolean(url && url !== "#");
 
-  if (links.demo) {
+  if (hasRealLink(links.demo)) {
     items.push(
       `<a class="panel-btn panel-btn-primary" href="${escapeHTML(
         links.demo
@@ -289,7 +290,7 @@ function linksMarkup(links = {}) {
     );
   }
 
-  if (links.code) {
+  if (hasRealLink(links.code)) {
     items.push(
       `<a class="panel-btn" href="${escapeHTML(
         links.code
