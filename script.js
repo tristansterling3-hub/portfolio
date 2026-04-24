@@ -1,21 +1,21 @@
 const projects = [
   {
     id: "chat-app",
-    title: "Simple Chat Application",
+    title: "Simple Chat",
     category: "Software Engineering",
     image:
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
     description:
-      "A feature-rich chat platform focused on real-world collaboration features including rooms, direct messages, moderation controls, reactions, pinned messages, and message lifecycle tools.",
-    tech: ["Java", "Software Design", "Testing", "Requirements"],
+      "A realtime chat platform built with Node.js, Socket.IO, and SQLite featuring rooms, direct messages, moderation controls, reactions, pinned messages, search, and file uploads.",
+    tech: ["Node.js", "Socket.IO", "SQLite", "JavaScript", "Testing"],
     links: {
-      demo: "#",
-      code: "#",
+      demo: "https://github.com/tristansterling3-hub/Simple-Chat-.git",
+      code: "https://github.com/tristansterling3-hub/Simple-Chat-.git",
     },
     details: [
-      "Designed around structured software engineering requirements and traceability.",
-      "Included support for public chat, private messaging, moderation workflows, and user management.",
-      "Demonstrates strength in system design, feature planning, and multi-user application thinking.",
+      "Implemented realtime room chat and direct messages with online presence and typing indicators.",
+      "Added moderation workflows including kick, ban, pinning, and moderator message deletion with logging.",
+      "Mapped and implemented 20 user requirements and 10 system requirements, including persistence and rate limiting.",
     ],
   },
   {
