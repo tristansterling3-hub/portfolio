@@ -28,8 +28,8 @@ const projects = [
       "An interactive Streamlit dashboard that visualizes state-level financial resilience using adjustable weights for income, unemployment, and cost-of-living factors.",
     tech: ["Python", "Streamlit", "Pandas", "Data Visualization"],
     links: {
-      demo: "#",
-      code: "#",
+      demo: "https://tristansterling3-hub.github.io/Financial-Resilience-Dashboard/",
+      code: "https://github.com/tristansterling3-hub/Financial-Resilience-Dashboard",
     },
     details: [
       "Built interactive controls that let users adjust weighted factors dynamically.",
