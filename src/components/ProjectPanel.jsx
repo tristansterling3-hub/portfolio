@@ -62,6 +62,12 @@ export default function ProjectPanel({ project, isOpen, onClose }) {
                   Code
                 </a>
               )}
+
+              {hasRealLink(project.links.video) && (
+                <a className="panel-btn" href={project.links.video} target="_blank" rel="noreferrer">
+                  Watch Video
+                </a>
+              )}
             </div>
           </div>
         )}

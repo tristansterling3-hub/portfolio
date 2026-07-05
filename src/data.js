@@ -11,6 +11,7 @@ export const projects = [
     links: {
       demo: "https://github.com/tristansterling3-hub/Simple-Chat-",
       code: "https://github.com/tristansterling3-hub/Simple-Chat-",
+      video: "https://youtu.be/mkmkVn-55nk",
     },
     details: [
       "Implemented realtime room chat and direct messages with online presence and typing indicators.",
@@ -106,12 +107,66 @@ export const projects = [
     links: {
       demo: "#",
       code: "#",
+      video: "https://www.youtube.com/playlist?list=PLNsgUtLU9AeY",
     },
     details: [
       "Worked on player controllers, health and item UI, enemy logic, and camera systems.",
       "Integrated gameplay code with animation states and interface updates.",
       "Highlights hands-on experience with game systems programming and debugging in Unity.",
     ],
+  },
+  {
+    id: "focal-point",
+    title: "AI Powered Moodboard",
+    category: "Web Application",
+    image:
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80",
+    description:
+      "FocalPoint is a web-based inspiration and moodboard generator that lets designers search, collect, and organize images into themed folders through a dark-themed interface.",
+    tech: ["JavaScript", "PHP", "CSS", "Unsplash API", "LocalStorage"],
+    links: {
+      demo: "#",
+      code: "https://github.com/tristansterling3-hub/FocalPoint",
+    },
+    details: [
+      "Integrated the Unsplash API for dynamic image search with filtering and an interactive preview modal.",
+      "Built a like-and-save system with folder management for organizing moodboards by project.",
+      "Added dark/light theme toggling and one-click board export to PNG using html2canvas.",
+    ],
+  },
+  {
+    id: "game-dna",
+    title: "GameDNA",
+    category: "Web Application",
+    image:
+      "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=1200&q=80",
+    description:
+      "GameDNA is a game recommendation platform that analyzes play history and completion patterns across platforms to help players discover what to play next.",
+    tech: ["React", "Vite", "TypeScript", "ASP.NET Core", "PostgreSQL"],
+    links: {
+      demo: "#",
+      code: "https://github.com/tristansterling3-hub/GameDNA",
+    },
+    details: [
+      "Built a weighted recommendation engine scoring genre, tags, developer, and completion patterns.",
+      "Designed a dashboard, game library, and Gaming DNA radar profile visualization.",
+      "Planned backend integration with ASP.NET Core, PostgreSQL, and the Steam API for real data and auth.",
+    ],
+  },
+  {
+    id: "spon-trip",
+    title: "Spon Trip",
+    category: "", // TODO: add category
+    image:
+      "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80",
+    // description: "", // TODO: add description
+    tech: [], // TODO: add tech stack
+    links: {
+      demo: "#",
+      code: "#",
+      video: "https://youtube.com/shorts/8GZIUJrNo4o",
+    },
+    details: [], // TODO: add highlights
   },
 ];
 
@@ -149,7 +204,7 @@ export const skills = [
 ];
 
 export const stats = [
-  { value: "6+", label: "Major projects built" },
+  { value: "9+", label: "Major projects built" },
   { value: "4", label: "Core languages used regularly" },
   { value: "3", label: "Development areas: web, game, data" },
 ];
