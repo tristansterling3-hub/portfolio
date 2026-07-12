@@ -174,27 +174,27 @@ export const skills = [
   {
     title: "Game Development",
     icon: "🎮",
-    items: ["Unity", "C#", "Gameplay Systems", "UI", "Animation"],
+    items: ["Unity", "Gameplay Systems", "UI"],
   },
   {
     title: "Languages",
     icon: "</>",
-    items: ["Java", "Python", "JavaScript", "PHP", "SQL"],
+    items: ["C#", "Java", "Python", "JavaScript", "SQL", "PHP", "HTML", "CSS", "TypeScript"],
   },
   {
     title: "Web Technologies",
     icon: "🌐",
-    items: ["HTML5", "CSS3", "Streamlit", "MySQL", "Responsive Design"],
+    items: ["Streamlit", "Responsive Design", "React", "Vite", "ASP.NET Core", "Socket.IO", "Node.js"],
   },
   {
     title: "Data & Analysis",
     icon: "📊",
-    items: ["Pandas", "NumPy", "Matplotlib", "Dashboards", "Visualization"],
+    items: ["Pandas", "NumPy", "Matplotlib", "MySQL", "PostgreSQL"],
   },
   {
     title: "Software Engineering",
     icon: "⚙️",
-    items: ["Requirements", "Testing", "System Design", "Documentation"],
+    items: ["Requirements", "Testing", "System Design", "Documentation", "Debugging", "API Integration"],
   },
   {
     title: "Tools",
